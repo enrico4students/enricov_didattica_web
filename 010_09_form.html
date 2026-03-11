@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Form HTML</title>
+</head>
+<body>
+    <h1>Introduzione ai form</h1>
+
+    <p>I form permettono di raccogliere dati inseriti dall'utente.</p>
+
+    <form action="#" method="post">
+        <p>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome">
+        </p>
+
+        <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email">
+        </p>
+
+        <p>
+            <label for="messaggio">Messaggio:</label><br>
+            <textarea id="messaggio" name="messaggio" rows="5" cols="30"></textarea>
+        </p>
+
+        <p>
+            <button type="submit">Inviare</button>
+        </p>
+    </form>
+
+    <p>Questa pagina mostra label, input, textarea e button.</p>
+    <p>Il form non invia davvero i dati a un server, perché action è impostato a #.</p>
+</body>
+</html>

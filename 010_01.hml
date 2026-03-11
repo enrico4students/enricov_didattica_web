@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>Questa è la prima pagina HTML di esempio.</p>
+    <p>Mostra il caso più semplice: un titolo e un paragrafo.</p>
+</body>
+</html>
