@@ -1,0 +1,35 @@
+body {
+	background-image: url('sfondo.jpg'); /*immagine di sfondo, url è il percorso o indirizzo al quale reperire l’immagine*/
+	background-repeat: no-repeat; /*l’immagine di sfondo non viene ripetuta*/
+	background-position:0 0; /*l’immagine viene posizionata in alto a sinistra (alternativa: top left)*/
+}
+
+H3 {
+	font-family: Arial;
+	font-size:18pt;
+	color:black;
+	line-height:20pt; /*interlinea*/
+}
+
+p.black {
+	background-color:white;
+	color:black;
+	text-decoration:underline; /*caratteri sottolineati*/
+}
+
+a.azzurro {
+	text-decoration:none;
+	color:#aedeef;
+}
+
+.blue {
+	background-color:#d8eef7;
+	font:14pt,bold; /*raggruppamento size e weight*/
+	color:#00add8;
+}
+
+.riquadro {
+	border-style:outset; /*bordo 3D*/
+	text-align:left;
+	background-color:lightgrey;
+}
